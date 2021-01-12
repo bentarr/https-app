@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd5ccf5b-5a51-4364-bdf2-6282f73ce770" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/server/ssl/generate-certificates.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/ssl/generate-certificates.sh" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +46,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\benet\server_cgi\https-app" />
       <recent name="C:\Users\benet\server_cgi\https-app\server\ssl" />
     </key>
   </component>
@@ -59,7 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610317744308</updated>
       <workItem from="1610317745554" duration="974000" />
-      <workItem from="1610375186488" duration="3522000" />
+      <workItem from="1610375186488" duration="6728000" />
     </task>
     <task id="LOCAL-00001" summary="Création serveur + communication fichier html">
       <created>1610375882588</created>
@@ -82,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610376106407</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Avancée dans https">
+      <created>1610458260483</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1610458260483</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +108,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Création serveur + communication fichier html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Création serveur + communication fichier html" />
+    <MESSAGE value="Avancée dans https" />
+    <option name="LAST_COMMIT_MESSAGE" value="Avancée dans https" />
   </component>
 </project>
