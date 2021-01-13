@@ -8,15 +8,14 @@ const app = express()
 //app.use(express.static('public'));
 
 
-//GET home route
-app.get('/', (req, res) => {
-    res.send('Hello World');
-});
+//GET | Redirige vers dossier public
+app.use(express.static('public'));
 
-// we will pass our 'app' to 'https' server
+// Création du HTTPS + Lecture du port
 https.createServer({
-    key: fs.readFileSync('./key.pem'),
-    cert: fs.readFileSync('./cert.pem'),
+    key: fs.readFileSync('./key.pem'), //key + cert de la clé SSL obtenu avec OPEN SSL
+    cert: fs.readFileSync('./cert.pem'), // certificats auto signé
     passphrase: 'king'
 }, app)
-    .listen(3000);
+    .listen(3000,
+        () =>console.log ('Serveur écoute bien sur port 3000')); // Retour console une fois app lancée
